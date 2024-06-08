@@ -1,0 +1,110 @@
+Index: day2/test1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/day2/test1.py b/day2/test1.py
+--- a/day2/test1.py	(revision e313371073fea4f482bd6d73e9ce7ae6113ce739)
++++ b/day2/test1.py	(date 1717831130760)
+@@ -1,0 +1,101 @@
++# while循环
++# i = 100
++# while i>0:
++#     print(f"%s:我爱你"%i)
++#     if i ==66:
++#         break
++#     i-=1
++
++
++# 计算1-100的和
++# i=1
++# sum = 0
++# while i<=100:
++#     sum+=i
++#     i+=1
++# print(sum)
++
++
++# 猜数字，无限次，会提示大了还是小了（1-100)
++# import random
++#
++# x = random.randint(1, 100)
++# print(x)
++#
++# i = 1
++# while 1:
++#     guess_num = int(input("请输入要猜的数字："))
++#     if guess_num == x:
++#         print("猜对了")
++#         break
++#     elif guess_num > x:
++#         print("大了")
++#     else:
++#         print("小了")
++#     i += 1
++# print(f"猜了{i}次")
++
++
++# 百日表白
++# i = 1
++# while i <= 100:
++#     print(f"今天是表白小美的第{i}天")
++#     j = 1
++#     while j <= 10:
++#         print(f"送给小美的第{j}朵花")
++#         j += 1
++#     i += 1
++# print(f"经过{i - 1}天努力，成功")
++
++
++# 乘法口诀表
++# i = 1
++# while i <= 9:
++#     j = 1
++#     while j <= i:
++#         print(f"{j}*{i}={j*i}\t", end ='')
++#         j += 1
++#     i += 1
++#     print("")
++
++
++# for 循环
++# name = "zybs432"
++# for x in name:
++#     print(x)
++
++# 统计字符串中有多少个6
++# str = "1263456786546"
++# num = 0
++# for x in str:
++#
++#     if x == "6":
++#         num+=1
++# print(num)
++
++
++# range用法
++# for x1 in range(10):         # 默认从0开始
++#     print(x1)
++# print("-----------------------")
++# for x2 in range(10,20):
++#     print(x2)
++# print("-----------------------")
++# for x3 in range(10,20,2):           # 2代表步长，默认为1
++#     print(x3)
++
++
++# range练习: 1-100内有多少偶数
++# sum = 0
++# for x in range(101):
++#     if x % 2 == 0:
++#         sum += 1
++#         print(x)
++# print(f"一共有{sum}个偶数")
++
++
++# for循环打印乘法口诀
++for i in range(1, 10):
++    for j in range(1, i + 1):
++        print(f"{j}*{i}={j * i}\t", end='')
++    print("")
