@@ -118,3 +118,4 @@ else:
             print("猜对了老弟")
         else:
             print("你输了")
+print("test")
