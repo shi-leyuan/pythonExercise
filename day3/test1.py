@@ -84,11 +84,11 @@
 
 
 # 定义一个列表[1,2,3,4,5,6,7,8,9,10]，将偶数存入到新列表
-# arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# arr2 = []
-# arr3 = []
-# for i in arr1:
-#     if i % 2 == 0:
-#         arr2.append(i)
-# print(arr2)
+arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr2 = []
+arr3 = []
+for i in arr1:
+    if i % 2 == 0:
+        arr2.append(i)
+print(arr2)
 
